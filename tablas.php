@@ -4,7 +4,7 @@
     $usuarios = "SELECT * FROM usuarios"
     /*se hace el llamado a la funcion de conexion con la base de datos*/
 ?>
-
+<!-- este es el comienzo del html-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
