@@ -1,0 +1,43 @@
+body{
+    background: #dddddd;
+    font-family: monospace;
+}
+
+.container-table{
+    width: 98%;
+    background: white;
+    margin: 50px auto;
+    box-shadow: 0 0 20px #333333;
+
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-auto-rows: 50px;
+}
+
+.table-title{
+    grid-column-start: 1;
+    grid-column-end: 6;
+
+    background: rgb(112, 64, 224);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+.table-header, .table-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-header{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.table-item{
+    padding:10px;
+    font-size: 1.2em;
+}
