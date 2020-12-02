@@ -2,6 +2,7 @@
 
     include("cn.php");
     $usuarios = "SELECT * FROM usuarios"
+    /*se hace el llamado a la funcion de conexion con la base de datos*/
 ?>
 
 <!DOCTYPE html>
@@ -13,6 +14,7 @@
     <link href="estilos2.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+<!-- se crean el encabezado de la tabla --> 
     <div class="container-table">
         <div class="table-title">Datos de usuario</div>
         <div class="table-header">Nombre</div>
