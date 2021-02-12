@@ -1,12 +1,11 @@
-<?
+<?php
     session_start();
-
-
-    $varsesion = $_SESSION['usuario'];
-    if($varsesion == null || $varsesion =''){
-        echo 'Usted no tiene autorizacion';
-        die();
-    }
+    $var_sesion = $_SESSION['usuario'];
+        if ($var_sesion = null || $var_sesion = ''){
+            echo 'Usted no tiene autorizacion';
+            die();
+        }
+    
     session_destroy();
     header("Location:ingresar.php");
 ?>
